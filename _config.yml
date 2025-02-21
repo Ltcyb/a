@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Arnold Cai Website"
+title                    : "Arnold Cai"
 title_separator          : "-"
 name                     : &name "Arnold Cai"
 description              : &description "Third Year Undergraduate from UC Berkeley studying Computer Sciecne."
