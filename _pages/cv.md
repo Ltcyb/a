@@ -6,59 +6,67 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<!--
+
 {% include base_path %}
 
-Education
+### Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.A. in Computer Science, University of California, Berkeley, 2026
 
-Work experience
+### Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+#### Berkeley Brothers
+##### Data Research Intern Jun 2024 – Aug 2024
+* Implemented an algorithm to efficiently filter and analyze 20 GB of market data using Polars/Pandas, Numpy
+* Built webcrawler to gather multiple exchanges’ market data for analysis using NodeJs
+* Created a system in C++ to receive and decode SBE packets from broker apis
+* Analyzed high volatility market options and designed algorithm to detect volatility spikes
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+#### IBM Accelerate
+##### Software Engineer Track Jun 2024 – Aug 2024
+* IBM’s univeristy program for training students how to navigate the corporate world and software engineering
+* Learned how to communicate and network with fellow colleagues from the same industry
+* Learned how to integrate generative AI into React and Nodejs applications and developing with cloud based
+solutions
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+#### ezML
+##### Machine Learning Intern Feb 2024 – May 2024
+* Interned for a computer vision as a service Berkeley Skydeck startup
+* Trained computer vision YOLOv8 and TrackNet keypoint models with PyTorch
+* Designed object detection algorithms fast moving small objections for live video feeds
+* Utilized OpenCV to visualize bounding boxes and keypoints
 
-Skills
+<!-- #### UC Berkeley EECS Department
+##### CS 61A Undergraduate Course Staff I Aug 2023 – Dec 2023
+* Hosted Office Hours and Tutor Sessions for a 1300+ student class
+* Drafted and wrote Discussion, Lab, Homework, and Project problems
+* Content Covered: Recursion, High Order Functions and Currying, Iterators and Generators, Trees, Linked Lists,
+Object-Oriented Programming, Interpreters
+* Languages Covered: Python, Scheme, SQL -->
+
+<!-- Skills
+====== -->
+
+### Projects
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
-Publications
+### Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Talks
+### Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
 
-Teaching
+### Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-Service and leadership
-======
-* Currently signed in to 43 different slack teams -->

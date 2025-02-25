@@ -1,0 +1,13 @@
+---
+title: "CS 180 Project Portfolio"
+collection: projects
+category: projects
+permalink: /projects/cs-180-portfolio
+excerpt: ''
+date: 2024
+venue: ''
+paperurl: ''
+citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+---
+
+The link here will bring you the the projects I've done for UC Berkeley [CS 180](https://cal-cs180.github.io/fa24/) Computer Vision course. My personal favorites are the [diffusion models project](https://ltcyb.github.io/cs180-portfolio/proj5/) and the [implementation of NeRF](https://ltcyb.github.io/cs180-portfolio/proj6/).
