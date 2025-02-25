@@ -1,6 +1,6 @@
 Personal website
 
-Template by [academicpages.github.io](github.com/academicpages/academicpages.github.io)
+Template by [academicpages.github.io](https://www.github.com/academicpages/academicpages.github.io)
 
 <!-- # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
