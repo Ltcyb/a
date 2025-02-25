@@ -4,7 +4,6 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/cs61a-fa23
 venue: "UC Berkeley, EECS"
-date: 2023-08-31
 location: "Berkeley, USA"
 ---
 
